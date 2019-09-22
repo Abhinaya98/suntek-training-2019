@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+char a[100],b[100];
+int ca[256]={0},cb[256]={0};
+int l;
+printf("enter 1st string");
+gets(a);
+printf("enter 2nd string");
+gets(b);
+for(l=0;a[l]&&b[l];l++)
+{
+ca[a[l]]++;
+cb[b[l]]++;
+}
+if(a[l]!=b[l])
+return 0;
+for(l=0;l<256;l++)
+{
+if(ca[l]!=cb[l];
+return 0;
+}
+return 1;
+}
